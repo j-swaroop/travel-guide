@@ -1,0 +1,92 @@
+.bg-container{
+    background-color: #eef4f7;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.responsive-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1140px;
+    margin: auto;
+    
+}
+.heading{
+    color: #323f4b;
+    font-size: 26px;
+    font-family: "Roboto";
+    border: 3px solid #52bbf0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.loader-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.travel-guide-list-container{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.travel-guide{
+    width: 47%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+@media (max-width: 576px){
+    .travel-guide{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+.img{
+    width: 100%;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding: 15px;
+    
+}
+@media (min-width: 576px){
+    .details-container{
+        height: 150px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 900px){
+    .details-container{
+        height: 190px;
+    }
+}
+
+.title{
+    color:  #475569;
+    font-size: 18px;
+    font-family: "Roboto";
+    margin-top: 0;
+}
+.description{
+    color: #64748b;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-top: 0;
+}
